@@ -10,6 +10,6 @@ rules:
   resources: ["configmaps"]
   verbs: ["*"]
 - apiGroups: [""]
-  resources: ["serviceaccount"]
+  resources: ["serviceaccounts"]
   verbs: ["*"]
 
