@@ -6,10 +6,10 @@ rules:
 - apiGroups: ["apps"]
   resources: ["deployments"]
   verbs: ["*"]
-- apiGroups: ["core"]
+- apiGroups: [""]
   resources: ["configmaps"]
   verbs: ["*"]
-- apiGroups: ["core"]
+- apiGroups: [""]
   resources: ["serviceaccount"]
   verbs: ["*"]
 
